@@ -1,107 +1,63 @@
-                                        body {
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            background: rgb(42, 28, 11)
-                                        }
-                                        
-                                        .ul {
-                                            position: absolute;
-                                            margin: 15px;
-                                            padding: 16px 19px;
-                                            border-radius: 19px;
-                                        }
-                                        
-                                        .home-link {
-                                            color: #ffff;
-                                            background-color: #007bff;
-                                            padding: 8px 16px;
-                                            border-radius: 5px;
-                                            text-decoration: none;
-                                            font-weight: bold;
-                                            transition: 0, 3s;
-                                        }
-                                        
-                                        .home-link {
-                                            background-color: #0056b3;
-                                            color: #fff;
-                                        }
-                                        
-                                        .abouatme-link {
-                                            color: #ffff;
-                                            background-color: #007bff;
-                                            padding: 8px 16px;
-                                            border-radius: 5px;
-                                            text-decoration: none;
-                                            font-weight: bold;
-                                            transition: 0, 3s;
-                                        }
-                                        
-                                        .abouatme-link {
-                                            background-color: #0056b3;
-                                            color: #fff;
-                                        }
-                                        
-                                        .skills-link {
-                                            color: #ffff;
-                                            background-color: #007bff;
-                                            padding: 8px 16px;
-                                            border-radius: 5px;
-                                            text-decoration: none;
-                                            font-weight: bold;
-                                            transition: 0, 3s;
-                                        }
-                                        
-                                        .skills-link {
-                                            background-color: #0056b3;
-                                            color: #fff;
-                                        }
-                                        
-                                        .cantact-link {
-                                            color: #ffff;
-                                            background-color: #007bff;
-                                            padding: 8px 16px;
-                                            border-radius: 5px;
-                                            text-decoration: none;
-                                            font-weight: bold;
-                                            transition: 0, 3s;
-                                        }
-                                        
-                                        .cantact-link {
-                                            background-color: #0056b3;
-                                            color: #fff;
-                                        }
-                                        
-                                        h1 {
-                                            color: #007bff;
-                                            background-image: -moz-linear-gradient();
-                                            padding: 14px;
-                                            border: 15px;
-                                        }
-                                        
-                                        h2 {
-                                            color: #007bff;
-                                            transition: 1s;
-                                        }
-                                        
-                                        p {
-                                            font-size: 20px;
-                                        }
-                                        
-                                        input {
-                                            color: #007bff;
-                                        }
-                                        
-                                        footer {
-                                            text-align: center;
-                                        }
-                                        
-                                        .here {
-                                            color: #ddd;
-                                        }
-                                        
-                                        .var {
-                                            color: #ddd;
-                                        }
-                                        
-                                        h3 {
-                                            color: #ddd;
-                                        }
+body {
+    background-color: rgb(161, 193, 161);
+}
+
+.all {
+    display: flex;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.header {
+    border-radius: 200px;
+    height: 2%;
+    text-align: center;
+    background-color: rgb(206, 232, 206);
+}
+
+.header button {
+    background-color: rgb(161, 193, 161);
+    border-radius: 200px;
+}
+
+.header button:hover {
+    color: white;
+}
+
+.section {
+    border-radius: 100px;
+    width: 500px;
+    background-color: rgb(206, 232, 206);
+}
+
+.aside {
+    border-radius: 100px;
+    width: 500px;
+    background-color: rgb(206, 232, 206);
+}
+
+.main {
+    display: flex;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.Semantic {
+    border-radius: 100px;
+    width: 600px;
+    background-color: rgb(206, 232, 206);
+}
+
+.focused {
+    border-radius: 100px;
+    width: 600px;
+    background-color: rgb(206, 232, 206);
+}
+
+.footer {
+    gap: 20px;
+    border-radius: 200px;
+    height: 2%;
+    text-align: center;
+    background-color: rgb(206, 232, 206);
+}
