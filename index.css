@@ -1,52 +1,87 @@
-                                body {
-                                    background-color: rgb(161, 193, 161);
-                                }
-                                
-                                .all {
-                                    display: inline-flex;
-                                    margin: 1%;
-                                    gap: 10px;
-                                }
-                                
-                                .header {
-                                    text-align: center;
-                                    background-color: rgb(206, 232, 206);
-                                }
-                                
-                                .header button {
-                                    background-color: rgb(161, 193, 161);
-                                }
-                                
-                                .header button:hover {
-                                    transition: 0, 3s;
-                                    color: white;
-                                }
-                                
-                                .section {
-                                    background-color: rgb(206, 232, 206);
-                                }
-                                
-                                .aside {
-                                    background-color: rgb(206, 232, 206);
-                                }
-                                
-                                .main {
-                                    display: flex;
-                                    grid-template-columns: auto;
-                                    gap: 20px;
-                                    margin: 1%
-                                }
-                                
-                                .Semantic {
-                                    background-color: rgb(206, 232, 206);
-                                }
-                                
-                                .focused {
-                                    background-color: rgb(206, 232, 206);
-                                }
-                                
-                                .footer {
-                                    padding: 22px;
-                                    text-align: center;
-                                    background-color: rgb(206, 232, 206);
-                                }
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+                * {
+                    margin: 0%;
+                    box-sizing: border-box;
+                    scroll-behavior: smooth;
+                    font-family: "Poppins", serif;
+                }
+                
+                body {
+                    background-color: black;
+                }
+                
+                header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 2rem auto;
+                    max-width: 1200px;
+                }
+                
+                .navgtion ul {
+                    display: flex;
+                    list-style: none;
+                    gap: 4rem;
+                    margin: 19px;
+                }
+                
+                .navgtion a {
+                    text-decoration: none;
+                    color: aliceblue;
+                }
+                
+                .navgtion a:hover {
+                    color: pink;
+                }
+                
+                .header__svg img {
+                    width: 100px;
+                }
+                
+                .hr {
+                    opacity: 4px;
+                }
+                
+                .hero {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 5rem auto;
+                    max-width: 1200px;
+                }
+                
+                .arrow {
+                    position: absolute;
+                    transform: translateX(-5.6rem)translateY(1.5rem);
+                }
+                
+                .heroSub {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+                
+                .name {
+                    font-size: 4rem;
+                    color: pink;
+                }
+                
+                .title {
+                    font-size: 4rem;
+                    color: #eeee;
+                }
+                
+                .heroBtus {
+                    display: flex;
+                    gap: 1rem;
+                    margin-top: 1.5rem;
+                }
+                
+                .hireMe {
+                    color: #eeee;
+                    background-color: pink;
+                    border-radius: 24px;
+                    padding: 0.5rem 1.5rem;
+                    text-decoration: none;
+                    text-shadow: 0px 4px 4px;
+                }
