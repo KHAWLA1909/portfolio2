@@ -128,3 +128,13 @@
                     text-align: justify;
                     color: #eeee;
                 }
+                
+                @media(max-width:600px) {
+                    .navgtion ul {
+                        font-size: 12px;
+                        padding: 10px 5px;
+                    }
+                    .header__svg img {
+                        width: 299px;
+                    }
+                }
