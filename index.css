@@ -3,7 +3,7 @@
                     margin: 0%;
                     box-sizing: border-box;
                     scroll-behavior: smooth;
-                    font-family: "Poppins", serif;
+                    font-family: "Poppins";
                 }
                 
                 body {
@@ -87,7 +87,7 @@
                 }
                 
                 .cv {
-                    background-color: pink;
+                    background-color: rgb(84, 92, 111);
                     color: aliceblue;
                     border-radius: 24px;
                     text-decoration: none;
@@ -101,9 +101,7 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin: 4px auto;
-                    max-width: 1200px;
-                    gap: 10rem;
+                    margin: 13px;
                 }
                 
                 .textContainer {
