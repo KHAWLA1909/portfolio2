@@ -1,0 +1,20 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "Welcome to my personal portfolio! This website highlights who I am, the skills I’m learning, and the projects I’m working on as I grow in frontend development.",
+  "homepage": "https://github.com/KHAWLA1909/portfolio2#readme",
+  "bugs": {
+    "url": "https://github.com/KHAWLA1909/portfolio2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHAWLA1909/portfolio2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
